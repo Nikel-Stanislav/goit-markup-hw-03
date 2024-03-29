@@ -35,6 +35,12 @@ address {
   font-style: normal;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* ----------------------------------------------------- */
 
 /* -------------------------HEADER---------------------- */
@@ -44,7 +50,12 @@ address {
   padding-bottom: 24px;
 }
 
-.wrap {
+.header-nav {
+  display: flex;
+  margin-right: auto;
+}
+
+.header-wrap {
   display: flex;
 }
 
@@ -56,6 +67,7 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .header-accent {
@@ -70,6 +82,7 @@ address {
 
 .header-menu-list {
   display: flex;
+  gap: 40px;
 }
 
 .header-menu-link {
@@ -94,6 +107,7 @@ address {
 
 .header-address-menu {
   display: flex;
+  gap: 40px;
 }
 
 .header-address-link {
@@ -148,6 +162,9 @@ address {
   cursor: pointer;
   display: block;
   margin: 0 auto;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
 }
 
 .main-button:hover {
@@ -164,6 +181,10 @@ address {
 
 .wrap-text {
   padding-bottom: 120px;
+}
+
+.main-menu-list {
+  display: flex;
 }
 
 .main-menu-subtitle {
@@ -195,6 +216,10 @@ address {
 
 .main-section-picture {
   background-color: #f4f4fd;
+}
+
+.section-menu-list {
+  display: flex;
 }
 
 .main-picture-title {
@@ -252,6 +277,10 @@ address {
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
+}
+
+.benefits-list {
+  display: flex;
 }
 
 .benefits-subtitle {
