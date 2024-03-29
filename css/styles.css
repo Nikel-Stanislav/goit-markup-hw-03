@@ -54,6 +54,7 @@ img {
 .header-nav {
   display: flex;
   margin-right: auto;
+  align-items: center;
 }
 
 .header-wrap {
@@ -130,10 +131,6 @@ img {
 
 /* ------------------------1 SECTION----------------------------- */
 
-.main-section-holder {
-  padding-bottom: 120px;
-}
-
 .wrap-holder {
   background: #2e2f42;
   padding-top: 188px;
@@ -181,7 +178,19 @@ img {
 /* ----------------------2 SECTION------------------------------- */
 
 .wrap-text {
+  padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .main-menu-list {
