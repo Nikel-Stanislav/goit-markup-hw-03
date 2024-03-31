@@ -46,8 +46,6 @@ img {
 /* -------------------------HEADER---------------------- */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -59,6 +57,7 @@ img {
 
 .header-wrap {
   display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -93,6 +92,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: block;
 }
 
 .header-menu-link:hover {
@@ -131,7 +133,7 @@ img {
 
 /* ------------------------1 SECTION----------------------------- */
 
-.wrap-holder {
+.main-section-holder {
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -177,7 +179,7 @@ img {
 
 /* ----------------------2 SECTION------------------------------- */
 
-.wrap-text {
+.main-section-text {
   padding-top: 120px;
   padding-bottom: 120px;
 }
